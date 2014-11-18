@@ -1,4 +1,0 @@
-ThermicCell
-===========
-
-Test for project
