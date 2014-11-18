@@ -7,8 +7,8 @@
   <title>About</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?3983832653"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?316277714"/>
-  <link rel="stylesheet" type="text/css" href="css/about.css?257913501" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?405626080"/>
+  <link rel="stylesheet" type="text/css" href="css/about.css?4061809374" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className += ' js';
@@ -16,13 +16,25 @@
    </head>
  <body class="museBGSize">
 
-  <div class="clearfix" id="page"><!-- column -->
-   <div class="position_content" id="page_position_content">
-    <div class="clip_frame colelem" id="u75"><!-- image -->
-     <img class="block" id="u75_img" src="images/untitled.png" alt="" width="171" height="210"/>
-    </div>
-    <div class="verticalspacer"></div>
+  <div class="clearfix" id="page"><!-- group -->
+   <div class="clip_frame grpelem" id="u75"><!-- image -->
+    <img class="block" id="u75_img" src="images/untitled.png" alt="" width="171" height="210"/>
    </div>
+   <ul class="MenuBar clearfix grpelem" id="menuu99"><!-- horizontal box -->
+    <li class="MenuItemContainer clearfix grpelem" id="u107"><!-- vertical box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u110" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u113-4"><!-- content --><p>Home</p></div></a>
+    </li>
+    <li class="MenuItemContainer clearfix grpelem" id="u100"><!-- vertical box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u101" href="about.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u103-4"><!-- content --><p>About</p></div></a>
+    </li>
+    <li class="MenuItemContainer clearfix grpelem" id="u142"><!-- vertical box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u145" href="contact.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u146-4"><!-- content --><p>Contact</p></div></a>
+    </li>
+    <li class="MenuItemContainer clearfix grpelem" id="u149"><!-- vertical box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u152" href="random.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u154-4"><!-- content --><p>Random</p></div></a>
+    </li>
+   </ul>
+   <div class="verticalspacer"></div>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -33,12 +45,14 @@
 </script>
   <script src="scripts/museutils.js?3880880085" type="text/javascript"></script>
   <script src="scripts/jquery.musepolyfill.bgsize.js?3899542795" type="text/javascript"></script>
+  <script src="scripts/jquery.musemenu.js?32367222" type="text/javascript"></script>
   <script src="scripts/jquery.watch.js?4199601726" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    $(document).ready(function() { try {
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
