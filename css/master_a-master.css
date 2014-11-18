@@ -1,69 +1,74 @@
-#u145
+#menuu141
 {
-	border-color: #FFFFFF;
-	background-color: transparent;
+	position: fixed;
+}
+
+#u146
+{
+	vertical-align: top;
+	background: url("../images/u146.png") no-repeat 0px 0px;
 	position: relative;
 }
 
-#u145:hover
+#u145:hover #u146
 {
-	background-color: #999999;
+	background: url("../images/u146-r.png") no-repeat 0px 0px;
 }
 
-#u145:active
+#u145.MuseMenuActive #u146
 {
-	background-color: #6B6B6B;
+	background: url("../images/u146-a.png") no-repeat 0px 0px;
 }
 
-#u245
+#u247
 {
-	border-color: #FFFFFF;
-	background-color: transparent;
+	vertical-align: top;
+	background: url("../images/u247.png") no-repeat 0px 0px;
 	position: relative;
 }
 
-#u145.MuseMenuActive,#u245:hover
+#u245:hover #u247
 {
-	background-color: #999999;
+	background: url("../images/u247-r.png") no-repeat 0px 0px;
 }
 
-#u245:active
+#u245.MuseMenuActive #u247
 {
-	background-color: #6B6B6B;
+	background: url("../images/u247-a.png") no-repeat 0px 0px;
 }
 
-#u207
+#u209
 {
-	border-color: #FFFFFF;
-	background-color: transparent;
+	vertical-align: top;
+	background: url("../images/u209.png") no-repeat 0px 0px;
 	position: relative;
 }
 
-#u245.MuseMenuActive,#u207:hover
+#u207:hover #u209
 {
-	background-color: #999999;
+	background: url("../images/u209-r.png") no-repeat 0px 0px;
 }
 
-#u207:active
+#u207.MuseMenuActive #u209
 {
-	background-color: #6B6B6B;
+	background: url("../images/u209-a.png") no-repeat 0px 0px;
 }
 
-#u1925
+#u1927
 {
-	border-color: #FFFFFF;
-	background-color: transparent;
+	vertical-align: top;
+	background: url("../images/u1927.png") no-repeat 0px 0px;
 	position: relative;
 }
 
-#u207.MuseMenuActive,#u1925:hover
+#u1925:hover #u1927
 {
-	background-color: #999999;
+	background: url("../images/u1927-r.png") no-repeat 0px 0px;
 }
 
-#u1925:active
+#u1925.MuseMenuActive #u1927
 {
-	background-color: #6B6B6B;
+	background: url("../images/u1927-a.png") no-repeat 0px 0px;
 }
 
 #u2431
@@ -73,52 +78,43 @@
 	position: relative;
 }
 
-#u1925.MuseMenuActive,#u2431:hover
+#u2433
 {
-	background-color: #999999;
-}
-
-#u2431:active
-{
-	background-color: #6B6B6B;
-}
-
-#u222
-{
-	border-color: #FFFFFF;
-	background-color: transparent;
-	position: relative;
-}
-
-#u2431.MuseMenuActive,#u222:hover
-{
-	background-color: #999999;
-}
-
-#u222:active
-{
-	background-color: #6B6B6B;
-}
-
-#u222.MuseMenuActive
-{
-	background-color: #999999;
-}
-
-#menuu141,#u142,#u146-4,#u242,#u247-4,#u206,#u209-4,#u1924,#u1927-4,#u2430,#u2433-4,#u221,#u224-4
-{
-	position: relative;
-}
-
-#u146-4_clip,#u247-4_clip,#u209-4_clip,#u1927-4_clip,#u2433-4_clip,#u224-4_clip
-{
-	overflow: hidden;
 	vertical-align: top;
+	background: url("../images/u2433.png") no-repeat 0px 0px;
+	position: relative;
 }
 
-#u146-4_img,#u247-4_img,#u209-4_img,#u1927-4_img,#u2433-4_img,#u224-4_img
+#u2431:hover #u2433
 {
-	display: block;
+	background: url("../images/u2433-r.png") no-repeat 0px 0px;
+}
+
+#u2431.MuseMenuActive #u2433
+{
+	background: url("../images/u2433-a.png") no-repeat 0px 0px;
+}
+
+#u142,#u145,#u242,#u245,#u206,#u207,#u1924,#u1925,#u2430,#u221,#u222
+{
+	position: relative;
+}
+
+#u224
+{
+	vertical-align: top;
+	background: url("../images/u224.png") no-repeat 0px 0px;
+	position: relative;
+}
+
+#u222:hover #u224
+{
+	background: url("../images/u224-r.png") no-repeat 0px 0px;
+}
+
+#u222.MuseMenuActive #u224
+{
+	background: url("../images/u224-a.png") no-repeat 0px 0px;
 }
 
 .MenuItem /* unifiedNavBar */
