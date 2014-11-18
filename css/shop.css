@@ -16,7 +16,14 @@
 #page_position_content
 {
 	margin-top: 20px;
-	margin-bottom: 195px;
+	margin-bottom: 148px;
+}
+
+#pmenuu141
+{
+	width: 0.01px;
+	left: -48px;
+	position: relative;
 }
 
 #menuu141
@@ -24,7 +31,7 @@
 	z-index: 2;
 	width: 1047px;
 	padding-bottom: 20px;
-	left: -48px;
+	margin-right: -10000px;
 }
 
 #u142
@@ -193,11 +200,21 @@
 	margin-right: -10000px;
 }
 
+#u2462-3
+{
+	z-index: 67;
+	width: 5px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 26px;
+	left: 391px;
+}
+
 #pu2437-14
 {
 	width: 0.01px;
 	margin-left: 20px;
-	margin-top: 86px;
+	margin-top: 85px;
 	position: relative;
 }
 
@@ -233,13 +250,35 @@
 	padding-right: 1px;
 }
 
+#u2466-3
+{
+	z-index: 70;
+	width: 5px;
+	margin-left: 616px;
+	margin-top: 40px;
+	position: relative;
+}
+
 #u2442-10
 {
 	z-index: 56;
 	display: block;
 	vertical-align: top;
 	margin-left: 180px;
-	margin-top: 56px;
+	top: -1px;
+	margin-bottom: -1px;
+	position: relative;
+}
+
+#u2446
+{
+	z-index: 66;
+	width: 108px;
+	min-height: 47px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 426px;
 	position: relative;
 }
 

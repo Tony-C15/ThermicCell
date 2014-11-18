@@ -25,7 +25,7 @@
 #page_position_content
 {
 	margin-top: 20px;
-	margin-bottom: 440px;
+	margin-bottom: 277px;
 }
 
 #menuu141
@@ -217,7 +217,7 @@
 	display: block;
 	vertical-align: top;
 	margin-left: 359px;
-	margin-top: 62px;
+	margin-top: 59px;
 	position: relative;
 }
 
@@ -227,7 +227,7 @@
 	width: 0.01px;
 	height: 266px;
 	margin-left: 310px;
-	margin-top: 63px;
+	margin-top: 66px;
 	position: relative;
 }
 
@@ -717,6 +717,85 @@
 #widgetu456.non-empty-st #widgetu456_prompt,#widgetu451.non-empty-st #widgetu451_prompt,#widgetu465.non-empty-st #widgetu465_prompt
 {
 	visibility: hidden;
+}
+
+#ppu2456
+{
+	width: 0.01px;
+	margin-left: 224px;
+	margin-top: 58px;
+	position: relative;
+}
+
+#pu2456
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 402px;
+}
+
+#u2456
+{
+	z-index: 102;
+	width: 108px;
+	min-height: 24px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u2454
+{
+	z-index: 101;
+	width: 236px;
+	min-height: 24px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-top: 26px;
+	position: relative;
+}
+
+#u2448
+{
+	z-index: 99;
+	width: 290px;
+	min-height: 100px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+}
+
+#u2452
+{
+	z-index: 100;
+	width: 192px;
+	min-height: 28px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 38px;
+}
+
+#u2458
+{
+	z-index: 103;
+	width: 60px;
+	min-height: 66px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	left: 267px;
 }
 
 body

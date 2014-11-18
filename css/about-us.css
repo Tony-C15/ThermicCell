@@ -15,7 +15,7 @@
 #page_position_content
 {
 	margin-top: 20px;
-	margin-bottom: 29px;
+	margin-bottom: 13px;
 }
 
 #menuu141
@@ -192,12 +192,16 @@
 	margin-right: -10000px;
 }
 
-#u2381
+#u2443
 {
-	z-index: 47;
-	width: 552px;
-	margin-left: 204px;
-	margin-top: 73px;
+	z-index: 73;
+	width: 787px;
+	min-height: 500px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 86px;
+	margin-top: 131px;
 	position: relative;
 }
 
@@ -207,22 +211,22 @@
 	display: block;
 	vertical-align: top;
 	margin-left: 20px;
-	margin-top: 23px;
+	margin-top: 56px;
 	position: relative;
 }
 
 #u2413
 {
-	z-index: 73;
+	z-index: 71;
 	width: 106px;
 	margin-left: 427px;
-	margin-top: 507px;
+	margin-top: 144px;
 	position: relative;
 }
 
 #u2412-24
 {
-	z-index: 49;
+	z-index: 47;
 	display: block;
 	vertical-align: top;
 	margin-left: 20px;

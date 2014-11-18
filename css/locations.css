@@ -203,12 +203,22 @@
 	position: relative;
 }
 
+#u2467-3
+{
+	z-index: 46;
+	width: 9px;
+	min-height: 2px;
+	margin-left: 1064px;
+	margin-top: 5px;
+	position: relative;
+}
+
 #u2409
 {
 	z-index: 44;
 	width: 620px;
 	margin-left: 170px;
-	margin-top: 70px;
+	margin-top: 48px;
 	position: relative;
 }
 

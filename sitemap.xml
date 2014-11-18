@@ -55,6 +55,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://enbus203.com/images/u2468-4.png</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://enbus203.com/images/eb203finallogo2.png</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -79,7 +85,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://enbus203.com/images/u2394-4.png</loc>
+    <loc>http://enbus203.com/images/u2394-5.png</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -170,12 +176,6 @@
   </url>
   <url>
     <loc>http://enbus203.com/images/u466-ferr.png</loc>
-    <lastmod>2014-11-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://enbus203.com/images/eb203finallogo2552x208.png</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
